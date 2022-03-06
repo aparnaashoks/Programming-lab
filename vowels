@@ -1,0 +1,6 @@
+stringA = "Tutorialspoint is best"
+print("Given String: \n",stringA)
+vowels = "AaEeIiOoUu"
+# Get vowels
+res = set([each for each in stringA if each in vowels])
+print("The vlowels present in the string:\n ",res)
